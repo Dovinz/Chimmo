@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chimmo_loading">
+
+    tools:context=".loading1">
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_slideshow" />
+        app:srcCompat="@drawable/image_slovenia"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="577dp"
+        tools:layout_editor_absoluteY="327dp" />
 </android.support.constraint.ConstraintLayout>
